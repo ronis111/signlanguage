@@ -1,0 +1,355 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta
+    content="width=device-width, initial-scale=1.0"
+    name="viewport"
+  >
+
+  <title>Tutorials</title>
+
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- ================= FAVICON ================= -->
+
+  <link
+    href="{% static 'images/logoo.png' %}"
+    rel="icon"
+  >
+
+  <!-- ================= GOOGLE FONTS ================= -->
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
+    rel="stylesheet"
+  >
+
+
+  <!-- ================= VENDOR CSS ================= -->
+
+  <link
+    href="{% static 'assets/vendor/aos/aos.css' %}"
+    rel="stylesheet"
+  >
+
+  <link
+    href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}"
+    rel="stylesheet"
+  >
+
+  <link
+    href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}"
+    rel="stylesheet"
+  >
+
+  <link
+    href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}"
+    rel="stylesheet"
+  >
+
+  <link
+    href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}"
+    rel="stylesheet"
+  >
+
+
+  <!-- ================= MAIN CSS ================= -->
+
+  <link
+    href="{% static 'assets/css/style.css' %}"
+    rel="stylesheet"
+  >
+
+
+  <!-- ================= CUSTOM CSS ================= -->
+
+  <style>
+
+    #features img {
+
+      height: 200px;
+
+      width: 100%;
+
+      max-width: 300px;
+
+      margin-bottom: 30px;
+
+      border-radius: 10px;
+
+      object-fit: contain;
+
+    }
+
+
+    .feature-block {
+
+      padding: 20px;
+
+    }
+
+
+    .feature-block a {
+
+      display: inline-block;
+
+      padding: 8px 18px;
+
+      color: white;
+
+      text-decoration: none;
+
+      border-radius: 4px;
+
+      margin-top: 10px;
+
+    }
+
+
+    .feature-block a:hover {
+
+      opacity: 0.85;
+
+    }
+
+
+    #logo {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 10px;
+
+    }
+
+
+    #logo img {
+
+      width: 50px;
+
+      height: 50px;
+
+      object-fit: contain;
+
+    }
+
+
+    #logo h1 {
+
+      color: #71c55d;
+
+      margin: 0;
+
+      font-size: 30px;
+
+    }
+
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <!-- ================= HEADER ================= -->
+
+  <header
+    id="header"
+    class="header fixed-top d-flex align-items-center"
+  >
+
+    <div
+      class="container d-flex align-items-center justify-content-between"
+    >
+
+      <div id="logo">
+
+        <!-- IMPORTANT:
+             logo is inside static/images/
+        -->
+
+        <img
+          src="{% static 'images/logoo.png' %}"
+          alt="American Sign Language Logo"
+        >
+
+        <h1>
+          American SignLanguage
+        </h1>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- ================= END HEADER ================= -->
+
+
+  <!-- ================= FEATURES SECTION ================= -->
+
+  <section
+    id="features"
+    class="padd-section text-center"
+    style="margin-top:100px;"
+  >
+
+    <div
+      class="container"
+      data-aos="fade-up"
+    >
+
+
+      <!-- ================= TITLE ================= -->
+
+      <div class="section-title text-center">
+
+        <h2>Tutorials.</h2>
+
+        <p class="separator">
+
+          Learning American Sign Language fluently helps
+          him or her connect with other Deaf persons and
+          the larger Deaf community.
+
+        </p>
+
+      </div>
+
+
+      <!-- ================= TUTORIAL CARDS ================= -->
+
+      <div
+        class="row"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+
+
+        <!-- ================= ALPHABETS ================= -->
+
+        <div class="col-md-6 col-lg-6">
+
+          <div class="feature-block">
+
+            <!-- IMPORTANT:
+                 abctutorial.jpg is inside static/images/
+            -->
+
+            <img
+              src="{% static 'images/abctutorial.jpg' %}"
+              alt="Alphabet Sign Language Tutorial"
+            >
+
+            <h4>
+              Alphabets
+            </h4>
+
+            <p>
+
+              The significance of features associated with
+              the alphabets of the American Sign Language
+              are summarized to help a hearing impaired
+              person to easily interact with a normal person
+              at different levels in the society.
+
+            </p>
+
+
+            <a
+              style="background-color:#71c55d;"
+              href="{% url 'alphabets' %}"
+            >
+              Let's Begin
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- ================= NUMBERS ================= -->
+
+        <div class="col-md-6 col-lg-6">
+
+          <div class="feature-block">
+
+            <!-- IMPORTANT:
+                 tutorialnumbers.jpg is inside static/images/
+            -->
+
+            <img
+              src="{% static 'images/tutorialnumbers.jpg' %}"
+              alt="Numbers Sign Language Tutorial"
+            >
+
+            <h4>
+              Numbers
+            </h4>
+
+
+            <p>
+
+              Let's familiarize ourselves with the sign
+              language for basic numbers. Understanding
+              these signs is crucial for effective
+              communication within the Deaf community.
+
+              Sign languages may have regional variations,
+              and the signs mentioned here are generalized
+              representations.
+
+            </p>
+
+
+            <a
+              style="background-color:#71c55d;"
+              href="{% url 'numbers' %}"
+            >
+              Let's Begin
+            </a>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= END FEATURES ================= -->
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+
+</body>
+
+</html>

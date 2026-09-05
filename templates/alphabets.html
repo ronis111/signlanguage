@@ -1,0 +1,537 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Alphabets</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/sign.jpg' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+  <style>
+
+    #features img {
+      height: 75px;
+      width: 75px;
+      margin-bottom: 30px;
+      border-radius: 30px;
+      object-fit: contain;
+    }
+
+    .link {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    ul {
+      display: inline-block;
+      margin-top: 40px;
+      margin-bottom: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    ul li {
+      background: gray;
+      border-radius: 50px;
+      float: left;
+      height: 35px;
+      line-height: 35px;
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 35px;
+      transition: 0.3s;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    ul li a {
+      color: white;
+      text-decoration: none;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 100%;
+      height: 100%;
+    }
+
+    ul li:hover {
+      background: darkgray;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div id="logo">
+
+        <img
+          src="{% static 'images/logoo.png' %}"
+          style="width:50px;height:50px;"
+          alt="American Sign Language Logo"
+        >
+
+        <h1 style="color:#71c55d;">
+          American SignLanguage
+        </h1>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- ================= END HEADER ================= -->
+
+
+  <!-- ================= FEATURES ================= -->
+
+  <section
+    id="features"
+    class="padd-section text-center"
+    style="margin-top:100px;"
+  >
+
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title text-center">
+
+        <h2>Alphabets.</h2>
+
+        <p class="separator">
+          Here is the tutorial for alphabets...
+        </p>
+
+      </div>
+
+
+      <div
+        class="row"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+
+
+        <!-- ================= A ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/a.png' %}"
+              alt="Sign language letter A"
+            >
+            <h4>A</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= B ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/b.jpeg' %}"
+              alt="Sign language letter B"
+            >
+            <h4>B</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= C ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/c.jpeg' %}"
+              alt="Sign language letter C"
+            >
+            <h4>C</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= D ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/d.jpeg' %}"
+              alt="Sign language letter D"
+            >
+            <h4>D</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= E ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/e.png' %}"
+              alt="Sign language letter E"
+            >
+            <h4>E</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= F ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/f.jpeg' %}"
+              alt="Sign language letter F"
+            >
+            <h4>F</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= G ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/g.png' %}"
+              alt="Sign language letter G"
+            >
+            <h4>G</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= H ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/h.png' %}"
+              alt="Sign language letter H"
+            >
+            <h4>H</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= I ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/i.jpeg' %}"
+              alt="Sign language letter I"
+            >
+            <h4>I</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= J ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/j.jpeg' %}"
+              alt="Sign language letter J"
+            >
+            <h4>J</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= K ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/k.jpeg' %}"
+              alt="Sign language letter K"
+            >
+            <h4>K</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= L ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/l.jpeg' %}"
+              alt="Sign language letter L"
+            >
+            <h4>L</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= M ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/m.jpeg' %}"
+              alt="Sign language letter M"
+            >
+            <h4>M</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= N ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/n.jpeg' %}"
+              alt="Sign language letter N"
+            >
+            <h4>N</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= O ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/o.jpeg' %}"
+              alt="Sign language letter O"
+            >
+            <h4>O</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= P ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/p.jpeg' %}"
+              alt="Sign language letter P"
+            >
+            <h4>P</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= Q ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/q.jpeg' %}"
+              alt="Sign language letter Q"
+            >
+            <h4>Q</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= R ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/r.jpeg' %}"
+              alt="Sign language letter R"
+            >
+            <h4>R</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= S ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/s.jpeg' %}"
+              alt="Sign language letter S"
+            >
+            <h4>S</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= T ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/t.jpeg' %}"
+              alt="Sign language letter T"
+            >
+            <h4>T</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= U ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/u.jpeg' %}"
+              alt="Sign language letter U"
+            >
+            <h4>U</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= V ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/v.jpeg' %}"
+              alt="Sign language letter V"
+            >
+            <h4>V</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= W ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/w.jpeg' %}"
+              alt="Sign language letter W"
+            >
+            <h4>W</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= X ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/x.jpeg' %}"
+              alt="Sign language letter X"
+            >
+            <h4>X</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= Y ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/y.jpeg' %}"
+              alt="Sign language letter Y"
+            >
+            <h4>Y</h4>
+          </div>
+        </div>
+
+
+        <!-- ================= Z ================= -->
+
+        <div class="col-md-6 col-lg-2">
+          <div class="feature-block">
+            <img
+              src="{% static 'assets/a-z/z.jpeg' %}"
+              alt="Sign language letter Z"
+            >
+            <h4>Z</h4>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= END FEATURES ================= -->
+
+
+  <!-- ================= BOTTOM NAVIGATION ================= -->
+
+  <div class="link">
+
+    <ul class="list-unstyled">
+
+      <li>
+        <a href="{% url 'home' %}">I</a>
+      </li>
+
+      <li>
+        <a href="{% url 'alphabets' %}">H</a>
+      </li>
+
+      <li>
+        <a href="{% url 'tutorials' %}">T</a>
+      </li>
+
+    </ul>
+
+  </div>
+
+  <!-- ================= END BOTTOM NAVIGATION ================= -->
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+  <!-- ================= END JAVASCRIPT ================= -->
+
+</body>
+
+</html>
